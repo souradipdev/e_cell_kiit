@@ -55,11 +55,27 @@ const config: Config = {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
-      }
-    }
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.8s ease-out both',
+      },
+      keyframes: {
+        fadeIn: {
+          from: {
+            opacity: '0',
+            transform: 'translateY(10px)',
+          },
+          to: {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
+      },
+    },
   },
 
-  darkMode: ["class"],
+  darkMode: ["variant"],
   plugins: [require("tailwindcss-animate")],
 };
+
 export default config;
