@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "name": "E-Summit",
+      "description": "KIIT E-Summit is E-Cell's annual mega event bringing in number of\nspeakers, investors, incubators, early entrepreneurs, students, corporates, venture\ncapitalists and start-ups from all over the country to one platform sharing their\nentrepreneur ventures and wisdom and delegates to plunge into a memorable and\nsplendid frenzy of the startup world with competitions with huge cash prizes, number of\nspeaker sessions by CEO's and other top level executives in India."
+    },
+    {
+      "name": "Internship Camp",
+      "description": "A 3 Day workshop aimed to develop entrepreneurial aptitude among\nstudents by holding events with recognized start-up giants. E-Summit falls under this\ninitiative. The Internship Camp facilitates a symbiotic relationship between companies\nand the students of KIIT University. In this camp we focus on providing the best set of\ntalents to the companies keeping in mind their needs, simultaneously we offer students\nbag internships in various domains"
+    },
+    {
+      "name": "Startup Konclave",
+      "description": "KIIT Startup Konclave stands for bringing together people from all\naround KIIT University and India who are interested in starting their own business and\nare showcasing their skills and strengths to the world. This will aid in fostering an\nentrepreneurship temperament and culture among participants as well as their\nprofessional development."
+    },
+    {
+      "name": "Hult Prize",
+      "description": "The Hult Prize Foundation transforms how young people envision their own\npossibilities as leaders of change in the world around them. With a US$1,000,000 global\nstartup prize as its anchor activity, the Hult Prize has brought impact-focused programs,\nevents and training to over a million students globally, creating a pathway for youth\neverywhere to take action to build a better world. KIIT E-Cell organizes the on-campus\nround of Hult Prize."
+    },
+    {
+      "name": "Entrepreneurship Awareness Camp",
+      "description": "A 3 Day workshop aimed to develop\nentrepreneurial aptitude among students by holding events with recognized start-up giants.\nE-Summit falls under this initiative."
+    },
+    {
+      "name": "Community Learning",
+      "description": "A 3 Day workshop aimed to develop entrepreneurial aptitude\namong students by holding events with recognized start-up giants. E-Summit falls under\nthis initiative."
+    },
+    {
+      "name": "Bizzand Bytes",
+      "description": "KIIT E-CELL brings you \"Bizz &Bytes\", a unique hackathon for both\ntech junkies as well as budding entrepreneurs!"
+    }
+  ]
+}
