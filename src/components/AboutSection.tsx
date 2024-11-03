@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export default function AboutSection() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-900">
-      <div className="container px-4 md:px-6">
+    <section className="w-full py-16 bg-gray-50 dark:bg-gray-900">
+      <div className="container px-4 md:px-11">
         <div className="grid gap-6 lg:grid-cols-2 items-center">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
