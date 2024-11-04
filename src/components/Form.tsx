@@ -1,10 +1,8 @@
 "use client"
-import {useRef} from "react";
 import {Button} from "@/components/ui/button";
 import {Input} from "@/components/ui/input";
 
 export default function Form() {
-  const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -17,7 +15,6 @@ export default function Form() {
         <div className="mx-auto max-w-2xl">
           <form
             id={"form"}
-            ref={formRef}
             className="p-10 backdrop-blur-md bg-white bg-opacity-20 rounded-2xl shadow-2xl"
             onSubmit={handleSubmit}
           >
