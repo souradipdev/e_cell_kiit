@@ -53,7 +53,6 @@ async function GetInvolvedSectionSuccess() {
               {data.ctaLabel}
             </Button>
           </Link>
-
         </div>
       </div>
     </section>

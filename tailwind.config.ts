@@ -74,7 +74,7 @@ const config: Config = {
     },
   },
 
-  darkMode: ["variant"],
+  darkMode: ["class"],
   plugins: [require("tailwindcss-animate")],
 };
 

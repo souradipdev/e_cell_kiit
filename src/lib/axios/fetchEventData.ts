@@ -9,7 +9,7 @@ async function wait() {
 }
 
 export async function fetchEventData() {
-  await wait();
+  // await wait();
   try {
     const response = await axios.get(`${process.env.HOST_NAME}/api/events`);
 
