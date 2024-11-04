@@ -1,5 +1,10 @@
 import {Suspense} from "react";
 import {fetchEventData} from "@/lib/axios/fetchEventData";
+interface Event {
+  name: string;
+  description: string;
+}
+
 
 function EventSectionFallback() {
   return (
@@ -54,7 +59,7 @@ async function EventSectionSuccess() {
           Events & Programs
         </h2>
         <div className="flex flex-col gap-10 items-center">
-          {data.map((event: any, index: number) => (
+          {data.map((event: Event, index: number) => (
             <div
               key={index}
               className="transform transition duration-300 hover:scale-[1.02] hover:shadow-2xl rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-950 p-8 space-y-4 w-full max-w-6xl"
