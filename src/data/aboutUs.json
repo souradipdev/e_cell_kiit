@@ -1,7 +1,13 @@
 {
   "aboutUs": [
     {
-      "about": "KIIT E-Cell is dedicated to nurturing the entrepreneurial spirit among students.",
+      "about": [
+        "KIIT E-Cell is",
+        "dedicated",
+        "to nurturing the",
+        "entrepreneurial spirit",
+        "among students."
+      ],
       "points": [
         "Learn from industry experts and successful entrepreneurs",
         "Innovate through workshops and hackathons",
