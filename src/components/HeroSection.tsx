@@ -20,7 +20,7 @@ async function HeroContent() {
           className="px-8 py-4 bg-gradient-to-r from-white to-blue-100 text-blue-600 font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
           size="lg"
         >
-          {heroData.ctaButton}
+          {heroData.ctaLabel}
           <ArrowRight className="ml-2 h-5 w-5"/>
         </Button>
       </Link>
