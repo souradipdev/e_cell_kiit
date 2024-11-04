@@ -8,18 +8,18 @@ async function wait() {
   })
 }
 
-export async function fetchEventData() {
+export async function fetchGetInvolvedData() {
   await wait();
   try {
-    const response = await axios.get(`${process.env.HOST_NAME}/api/events`);
+    const response = await axios.get(`${process.env.HOST_NAME}/api/get-involved`);
 
-    return response.data.events;
+    return response.data.getInvolved;
   } catch (error) {
     console.error("Error fetching hero section data:", error);
 
     return {
       error: true,
-      message: "Unable to load the Event Section. Please try again later.",
+      message: "Unable to load the Get Involved Section. Please try again later.",
     };
   }
 }
