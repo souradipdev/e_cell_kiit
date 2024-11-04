@@ -1,4 +1,4 @@
-import {NextRequest, NextResponse} from 'next/server';
+import {NextResponse} from 'next/server';
 
 async function wait() {
   return new Promise((resolve) => {
@@ -8,7 +8,7 @@ async function wait() {
   });
 }
 
-export async function middleware(request: NextRequest) {
+export async function middleware() {
   await wait();
   return NextResponse.next();
 }
