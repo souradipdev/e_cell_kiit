@@ -4,6 +4,20 @@ import Link from "next/link";
 import {fetchHeroSectionData} from "@/lib/axios/fetchHeroSectionData";
 import {Suspense} from "react";
 
+function HeroSectionFallback() {
+  return (
+    <div className="relative w-full px-4 md:px-6 flex flex-col items-center text-center text-white space-y-6">
+      <div className="w-3/4 md:w-1/2 h-10 sm:h-12 md:h-14 bg-white/30 rounded animate-pulse"></div>
+
+      <div className="w-5/6 md:w-2/3 h-5 sm:h-6 md:h-7 bg-white/30 rounded animate-pulse"></div>
+      <div className="w-2/3 md:w-1/2 h-5 sm:h-6 md:h-7 bg-white/30 rounded animate-pulse"></div>
+
+      <div className="h-12 w-32 sm:w-36 md:w-40 bg-white/20 rounded-full animate-pulse"></div>
+    </div>
+  );
+}
+
+
 async function HeroContent() {
   const heroData = await fetchHeroSectionData();
 
@@ -34,10 +48,9 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 opacity-20 pointer-events-none bg-[radial-gradient(ellipse_at_center,_#ffffff33,_transparent)]"></div>
       <div className="relative px-4 md:px-6 flex flex-col items-center text-center text-white">
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<HeroSectionFallback/>}>
           <HeroContent/>
         </Suspense>
-
       </div>
     </section>
   );
